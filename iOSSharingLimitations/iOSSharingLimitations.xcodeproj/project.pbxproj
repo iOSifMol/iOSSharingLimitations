@@ -11,6 +11,7 @@
 		50F8134D2800BA7000301966 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F8134C2800BA7000301966 /* ContentView.swift */; };
 		50F8134F2800BA7400301966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F8134E2800BA7400301966 /* Assets.xcassets */; };
 		50F813522800BA7400301966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F813512800BA7400301966 /* Preview Assets.xcassets */; };
+		50F813592800BDBC00301966 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F813582800BDBC00301966 /* ShareManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		50F8134C2800BA7000301966 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50F8134E2800BA7400301966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F813512800BA7400301966 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50F813582800BDBC00301966 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				50F8134A2800BA7000301966 /* iOSSharingLimitationsApp.swift */,
 				50F8134C2800BA7000301966 /* ContentView.swift */,
+				50F813582800BDBC00301966 /* ShareManager.swift */,
 				50F8134E2800BA7400301966 /* Assets.xcassets */,
 				50F813502800BA7400301966 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F813592800BDBC00301966 /* ShareManager.swift in Sources */,
 				50F8134D2800BA7000301966 /* ContentView.swift in Sources */,
 				50F8134B2800BA7000301966 /* iOSSharingLimitationsApp.swift in Sources */,
 			);
@@ -267,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSSharingLimitations/Preview Content\"";
+				DEVELOPMENT_TEAM = 59DCK66KU9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSSharingLimitations/Preview Content\"";
+				DEVELOPMENT_TEAM = 59DCK66KU9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
